@@ -28,6 +28,10 @@ var setFavicon = function() {
   link.rel = "shortcut icon";
   link.href = url + number;
   document.getElementsByTagName("head")[0].appendChild(link);
+  var link2 = document.createElement("link");
+  link2.rel = "apple-touch-icon";
+  link2.href = url + number;
+  document.getElementsByTagName("head")[0].appendChild(link2);
 };
 
 new Vue({
