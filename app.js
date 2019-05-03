@@ -15,7 +15,7 @@ var pushupsDue = function() {
   var daysSince = daysSinceDate(startDate);
   var pushupsDue = Math.floor(5 * (0.1 * daysSince));
   console.log(`Pushups due ${pushupsDue}`);
-  return pushupsDue > 5 ? pushupsDue : 5;
+  return pushupsDue > 5 ? pushupsDue : 18;
 };
 
 var setFavicon = function() {
