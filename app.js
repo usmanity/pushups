@@ -20,6 +20,7 @@ var pushupsDue = function() {
 
 var setFavicon = function() {
   var url = "https://dummyimage.com/32/ffffff/000000/?text=";
+  var iphoneUrl = "https://dummyimage.com/256/ffffff/000000/?text=";
   var number = pushupsDue();
   var link =
     document.querySelector("link[rel*='icon']") ||
@@ -30,7 +31,7 @@ var setFavicon = function() {
   document.getElementsByTagName("head")[0].appendChild(link);
   var link2 = document.createElement("link");
   link2.rel = "apple-touch-icon";
-  link2.href = url + number;
+  link2.href = iphoneUrl + number;
   document.getElementsByTagName("head")[0].appendChild(link2);
 };
 
