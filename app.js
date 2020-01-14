@@ -1,4 +1,4 @@
-var startDate = new Date(2019, 4, 1); // Setting to May 1st, 2019
+var startDate = new Date(2020, 0, 10); // Setting to January 10th, 2020
 var startingPushups = 5;
 
 // roughly copied from here: https://stackoverflow.com/questions/3224834/get-difference-between-2-dates-in-javascript#3224854
